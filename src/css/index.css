@@ -1,0 +1,109 @@
+#main {
+    background-color: #c2c2c2;
+    height: 100vh;
+    width: 100vw;
+}
+
+#main h1 {
+    display: block;
+    font: 3em "Open Sans", sans-serif;
+    text-align: center;
+}
+
+
+#main #logo {
+    height: 60%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+}
+
+#main #logo img {
+    height: 100%;
+}
+
+#main footer {
+    height: 2em;
+    position: absolute;
+    bottom: 0;
+    line-height: 2em;
+}
+
+#logo_div_wrapper {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.logo_div {
+    position: absolute;
+    width: 70%;
+    height: 70%;
+    opacity: 0.5;
+}
+
+.logo_div div {
+    position: absolute;
+    font: 2em sans-serif;
+}
+
+.logo_div#contacts {
+    /* background-color: #A00; */
+    transform: translate(-30%, -30%);
+}
+
+.logo_div#contacts > div {
+    top: 50%;
+}
+
+.logo_div#where {
+    right: 0;
+    top: 50%;
+    transform: translate(50%, -50%);
+    /* background-color: #0A0; */
+}
+
+.logo_div#where > div {
+    top: 50%;
+    right: 0;
+    transform: translate(30%, -50%);
+}
+
+.logo_div#who {
+    right: 0;
+    transform: translate(-10%, -50%);
+    /* background-color: #AA0; */
+}
+
+.logo_div#who > div {
+    top: 37%;
+    right: 0;
+}
+
+.logo_div#what {
+    right: 0px;
+    bottom: 0px;
+    /* background-color: #00A; */
+    transform: translate(15%, 40%);
+}
+
+.logo_div#what > div {
+    top: 50%;
+    left: 40%;
+}
+
+.logo_div#news {
+    bottom: 0px;
+    /* background-color: #0AA; */
+    transform: translate(-40%, 30%);
+}
+
+.logo_div#news > div {
+    top: 35%;
+    left: 25%;
+}
+
+.logo_div:hover > div {
+    color: red;
+}
