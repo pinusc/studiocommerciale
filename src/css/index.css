@@ -27,6 +27,7 @@ a {
 #main h1 {
     display: block;
     font-size: 3em ;
+    padding-top: 0.4em;
     text-align: center;
 }
 
