@@ -1,8 +1,19 @@
 body {
     overflow-x: hidden;
+    font-family: "Lato", "Open Sans", sans-serif;
+}
+
+strong {
+    font-weight: 800;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
 }
 
 .page {
+    overflow: hidden;
     display: none;
     height: 100vh;
     width: 100vw;
@@ -10,12 +21,12 @@ body {
 
 #main {
     display: block;
-    background-color: #c2c2c2;
+    background-color: #eee;
 }
 
 #main h1 {
     display: block;
-    font: 3em "Open Sans", sans-serif;
+    font-size: 3em ;
     text-align: center;
 }
 
@@ -37,6 +48,18 @@ body {
     position: absolute;
     bottom: 0;
     line-height: 2em;
+    width: 100%;
+}
+
+#main footer div {
+    float: left;
+    width: 30%;
+    text-align: center;
+    color: #bbb;
+}
+
+#main footer div:hover {
+    color: #666;
 }
 
 #logo_div_wrapper {
