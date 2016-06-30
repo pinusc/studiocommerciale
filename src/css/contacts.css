@@ -1,3 +1,54 @@
 #page_contacts {
-    background-color: #7AA;
+    background-color: #cddbdb;
+}
+
+#contacts_wrapper {
+    width: 90%;
+    margin: auto;
+    clear: both;
+}
+
+#contacts_wrapper h2 {
+    font-size: 1.5em;
+    padding: 1em;
+}
+
+#contacts_wrapper > div {
+    background-color: #eee;
+    width: 49%;
+    height: 12em;
+    margin-top: 1em;
+    box-shadow: 0 0 20px #ccc;
+    text-align: center;
+}
+
+#contacts_wrapper #alfredo {
+    float: left;
+}
+
+#contacts_wrapper #anastasio {
+    float: right;
+}
+
+#contacts_wrapper #both {
+    width: 100%;
+    margin: auto;
+}
+
+
+#contacts_wrapper .contact_elem {
+    padding: 1em 3em;
+    display: block;
+}
+
+#contacts_wrapper .contact_elem:hover {
+    color: #777;
+}
+
+#contacts_wrapper .contact_elem span:first-child {
+    float: left;
+}
+
+#contacts_wrapper .contact_elem span:last-child {
+    float: right;
 }
