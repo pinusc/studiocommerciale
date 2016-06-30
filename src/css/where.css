@@ -7,14 +7,6 @@
     font-size: 3em;
 }
 
-#page_where h1 {
-    float: left;
-    clear: left;
-    font-size: 3em;
-    display: block;
-    padding: 1em;
-}
-
 #page_where p {
     display: block; 
     float: right;

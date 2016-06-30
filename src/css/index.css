@@ -19,13 +19,22 @@ a {
     width: 100vw;
 }
 
+.page > h1 {
+    float: left;
+    clear: left;
+    font-size: 3em;
+    display: block;
+    padding: 1em;
+}
+
+
 #main {
     display: block;
     background-color: #eee;
 }
 
-#main h1 {
-    display: block;
+#main > h1 {
+    float: none;
     font-size: 3em ;
     padding-top: 0.4em;
     text-align: center;
