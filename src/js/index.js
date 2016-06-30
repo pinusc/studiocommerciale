@@ -2,6 +2,7 @@ function load(component) {
     hideAll();
     var elem = document.getElementById('page_' + component);
     elem.style.display = "block";
+    smoothScroll.animateScroll("#page_" + component);
 }
 
 function hideAll() {
