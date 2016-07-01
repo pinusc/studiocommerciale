@@ -1,2 +1,12 @@
 <div class="page" id="page_who">
+  <h1>Chi siamo</h1>
+  <div class="wrapper">
+    {% for section in site.data.who %}
+      <div class="section">
+        <h2>{{ section.title }}</h2>
+        <div class="img">l</div>
+        {{ section.text }}
+      </div>
+    {% endfor %}
+  </div>
 </div>
