@@ -21,11 +21,13 @@
     display: block;
     background-color: #eee;
 
+    background-image: url($main_background);
+
     > h1 {
-        float: none;
+        margin-left: 5%;
+        margin-top: 1em;
         font-size: 3em ;
         padding-top: 0.4em;
-        text-align: center;
     }
 
 
