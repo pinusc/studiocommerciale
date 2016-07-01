@@ -6,16 +6,16 @@
 
     line-height: 2em;
 
-    background-color: rgba(200, 200, 200, 0.2);
+    background-color: rgba(200, 200, 200, 0.3);
 
     div {
         float: left;
         width: 30%;
         text-align: center;
-        color: #777;
+        color: #444;
     }
 
     div:hover {
-        color: #333;
+        color: #222;
     }
 }
