@@ -1,2 +1,11 @@
 <div class="page" id="page_what">
+  <h1>Cosa facciamo</h1>
+  <div id="what-wrapper">
+    {% for section in site.data.what %}
+      <div class="section">
+        <h2>{{ section.title }}</h2>
+        <p>{{ section.text }}</p>
+      </div>
+    {% endfor %}
+  </div>
 </div>
