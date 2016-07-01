@@ -1,0 +1,14 @@
+- id: where
+  text: Dove siamo
+
+- id: who
+  text: Chi siamo
+
+- id: what
+  text: Cosa facciamo
+
+- id: contacts
+  text: Contatti
+
+- id: news
+  text: News
