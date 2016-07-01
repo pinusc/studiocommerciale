@@ -47,10 +47,10 @@ $on-laptop:        800px;
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
+        "reset",
         "index",
         "contacts",
         "news",
-        "reset",
         "what",
         "where",
         "who"
