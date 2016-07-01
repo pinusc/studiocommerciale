@@ -1,2 +1,12 @@
 <div class="page" id="page_news">
+  <h1>News</h1>
+  <div id="news_wrapper">
+    {% for news in site.posts %}
+      <div class="news">
+        <h1>{{ news.title }}</h1>
+        <h2>{{ news.date }}</h2>
+        <p>{{ news.excerpt }}</p>
+      </div>
+    {% endfor %}
+  </div>
 </div>
