@@ -1,20 +1,8 @@
 #page_where {
+    position: relative;
     background-color: #FEB94D;
 
     div {
-        width: 45%;
-        height: 90%;
-        float: left;
-        margin: 0 2.5%;
-
-        position: relative;
-        top: 50%;
-        left: 50%
-        transform: translate(-50%, -50%);
-
-        background-color: #dedede;
-        box-shadow: 0 0 15px #888;
-
         p {
             font-size: 1.4em;
             line-height: 1.2em;
@@ -35,9 +23,9 @@
             padding: 1em;
         }
     }
+
     div:nth-child(2) {
         height: auto;
-        right: 50%
         iframe { 
             width: 90%;
             margin: 5% auto;
