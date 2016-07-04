@@ -1,5 +1,14 @@
 @import "footer";
 
+#slider {
+    opacity:1;
+    transition: opacity 1s; 
+}
+
+#slider.fadeOut {
+    opacity:0;
+}
+
 .page {
     overflow: hidden;
     display: none;
