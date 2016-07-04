@@ -1,5 +1,5 @@
 @import "footer";
-@import 'https://fonts.googleapis.com/css?family=EB+Garamond|Lato|Lora:400,400i';
+@import 'https://fonts.googleapis.com/css?family=EB+Garamond|Lato|Lora:400,400i|Raleway:400,400i';
 
 #slider {
     opacity:1;
@@ -21,8 +21,8 @@
         clear: left;
         display: block;
         padding: 1em;
-        font-family: Lato;
         font-size: 3em;
+        font-family: Garamond;
     }
 }
 
@@ -95,7 +95,7 @@
     div {
         transition: all .1s ease-in-out;
         position: absolute;
-        font: 1.7em Lora, serif;
+        font: 1.7em Raleway, serif;
     }
 }
 
